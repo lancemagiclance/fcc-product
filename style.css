@@ -1,0 +1,43 @@
+@media screen and (max-width: 500px) {
+    #header-img {
+        height: 375px;
+        width: 250px;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav-link {
+    float: left;
+    display: block;
+    padding: 8px;
+    color: #ff66ff;
+}
+
+.nav-link:hover {
+    background-color: #ff66ff;
+}
+
+#header {
+    position: relative;
+    top: 20px;
+}
+
+#header-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 5px;
+    background-color: #66ff66;
+}
+
+#flexbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Sample Product Landing Page</title>
+    </head>
+    <body>
+        <header id="header">
+            <h1 id="home-link">George's Marvelous Medicine</h1>
+            <img id="header-img" src="https://images.pexels.com/photos/4021770/pexels-photo-4021770.jpeg" alt="A dropper placing liquid in a medicine bottle">
+            <nav id="nav-bar">
+                <div class="nav-link"><a href="#home-link">Home</a></div>
+                <div class="nav-link"><a href="#ingred-link">Ingredients</a></div>
+                <div class="nav-link"><a href="#effects-link">Effects</a></div>
+                <div class="nav-link"><a href="#testimonials-link">Testimonials</a></div>
+            </nav>
+        </header>
+        <div id="flexbox-container">
+            <div class="flexbox-item">
+                <h2 id="ingred-link">Ingredients</h2>
+                <ul id="ingred-list">
+                    <li class="ingred-item">1 bottle of Golden Gloss Hair Shampoo</li>
+                    <li class="ingred-item">1 tube of toothpaste (NOT whitening)</li>
+                    <li class="ingred-item">1 can of Superfoam Shaving Soap</li>
+                    <li class="ingred-item">1 jar of Vitamin-Enriched Face Cream</li>
+                    <li class="ingred-item">1 jar of hair remover</li>
+                    <li class="ingred-item">1 large tin of Waxell Floor Polish</li>
+                    <li class="ingred-item">1 tin of curry powder</li>
+                    <li class="ingred-item">1 bottle of extra hot chili sauce</li>
+                    <li class="ingred-item">4 bottles of animal pills</li>
+                    <li class="ingred-item">1 large tin of brown paint</li>
+                </ul>
+            </div>
+            <div class="flexbox-item">
+                <h2 id="effects-link">Effects</h2>
+                <p>Gigantification</p>
+            </div>
+            <div class="flexbox-item">
+                <h2 id="testimonials-link">Testimonials</h2>
+                <blockquote cite="George's Grandma">
+                    Lorem ipsum
+                </blockquote>
+            </div>
+        </div>
+        <video id="video" width="25%" height="25%" controls>
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                This text will only display if the video fails to load.
+        </video>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Sign up for email alerts about this product:<br></label>
+            <input id="email" type="email" placeholder="Enter your email address here">
+            <input id="submit" type="submit" value="submit">
+        </form>
+        <footer>
+            <p>This page is a very basic demonstration/sample of HTML+CSS and potentially JS.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
